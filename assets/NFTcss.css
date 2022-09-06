@@ -1,0 +1,151 @@
+.flex-container{
+	display: flex;
+	justify-content: space-between;
+
+}
+main{margin :30px;
+font-family: "Gill Sans", sans-serif;}
+li{float: right;
+list-style-type: none;
+margin: 0;
+padding: 0;}
+li a{
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.logo{margin: 30px;}
+@media (min-width: 576px)
+{header .flex-container .flex-container2{display: flex;
+justify-content: space-between;
+align-items: center;}}
+.drp{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;}
+.signup1 {color: #FF1493;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;}
+.dropbtn {
+	margin: 30px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+	justify-content: flex-end;
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background-color:#cccccc;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+}
+.flex-container2{display: flex;
+	width: 100%;
+	justify-content: space-between;
+	flex-direction:row ;
+}
+.soon{color:#FF1493;}
+.big{font-size: 50px;
+font-weight: 900;}
+.text{font-size: 15px;}
+.signup2{margin-top: 50px;
+	width: 130px;
+  height: 50px;
+  border: double 4px transparent;
+  border-radius: 80px;
+  background-image: linear-gradient(white, white), url(background.svg);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.companylogo{	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+	align-content: center;
+}
+.graphic{}
+.bgbig{font-size: 40px;}
+.freebg{	display: flex;
+	flex-direction:column ;
+	background-image: url(background.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ul{display: flex;
+	flex-direction: column;
+align-items: center;
+padding-inline-start:0;
+justify-content: space-evenly;}
+.nftcards{display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-bottom: 150px;}
+.links{display: flex;
+	flex-direction: row;}
+.links2{display: flex;
+flex-direction:column ;
+align-items: center;}
+.top-footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.nftinfo{height: 250px;
+width: 300px;
+}
+.gloop{color: orange;}
+.bottom-footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	color: #e6e6e6;
+}
+button{border: none;}
+{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body { font-family: sans-serif; }
+{
+  box-sizing: border-box;
+}
+
+.nfts1{
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-text{display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	background-color:#cccccc;
+	border-radius: 20px;
+
+}
+.card-text2{display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+		padding-right:10px ;
+	padding-left:10px ;
+}
